@@ -1,0 +1,74 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-image: url('../img/pattern.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 8%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+
+header nav ul a {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  /* margin-right: 20px; */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 75px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+section a {
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 75%;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.text {
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  min-height: 100%;
+  margin-bottom: -50px;
+}
